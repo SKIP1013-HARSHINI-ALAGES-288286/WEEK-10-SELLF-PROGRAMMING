@@ -1,0 +1,27 @@
+package myArray;
+
+import java.util.Scanner;
+public class array3 {
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        
+        String[] name = new String[5];
+        int[][] sales= new int[3][3];
+        
+        
+    Scanner a = new Scanner(System.in);
+    
+    System.out.println("Enter sales per line ");
+    for(int i=0; i<sales.length; i++)
+        for(int y=0; y<sales.length; y++)
+        {
+            sales[i][y]=a.nextInt();
+        }
+    
+    for(int i=0; i<sales.length; i++)
+        for(int y=0; y<sales.length; y++) {
+        System.out.println("i = "+i + " y = "+ y);
+        System.out.println("Value for sales is "+ sales[i][y]);}
+
+}
+}
