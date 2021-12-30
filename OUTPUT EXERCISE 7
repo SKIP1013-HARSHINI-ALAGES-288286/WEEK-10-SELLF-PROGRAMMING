@@ -1,0 +1,41 @@
+Enter sales per line : 
+1
+2
+3
+6
+5
+4
+5
+8
+9
+
+For i = 0 and y = 0
+Values for sales are : 1
+
+For i = 0 and y = 1
+Values for sales are : 2
+
+For i = 0 and y = 2
+Values for sales are : 3
+
+For i = 1 and y = 0
+Values for sales are : 6
+
+For i = 1 and y = 1
+Values for sales are : 5
+
+For i = 1 and y = 2
+Values for sales are : 4
+
+For i = 2 and y = 0
+Values for sales are : 5
+
+For i = 2 and y = 1
+Values for sales are : 8
+
+For i = 2 and y = 2
+Values for sales are : 9
+
+The sum of sales is 43
+
+The average of sales is 14
