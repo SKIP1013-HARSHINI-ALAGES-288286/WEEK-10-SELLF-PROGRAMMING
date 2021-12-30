@@ -1,0 +1,37 @@
+package inclassexercises;
+import java.util.Scanner;
+public class TwoDimentionalArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[][] sales = new int[3][3];        //first [] rujuk as row   //second [] rujuk as column :)
+		int sum = 0;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter sales per line : ");
+
+		for (int i=0; i<sales.length; i++) 
+		{
+			for (int y=0; y<sales.length; y++) 
+			{
+				sales[i][y] = sc.nextInt();
+				sum = sum + sales[i][y];
+			}
+		}
+
+		for (int i=0; i<sales.length; i++) 
+		{
+			for (int y=0; y<sales.length; y++) 
+			{
+			System.out.println("\nFor i = " +i+ " and y = " +y);
+			System.out.println("Values for sales are : " +sales[i][y]);
+			}
+		}
+		System.out.println("\nThe sum of sales is " +sum);
+		System.out.println("\nThe average of sales is " +sum/sales.length);
+
+	}
+
+}
